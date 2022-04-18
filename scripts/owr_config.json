@@ -1,0 +1,45 @@
+{
+    "alphabet": " \"%'(),-.0123456789:;=?ABCDEFGHIJKLMNOPRSTUVWXYabcdefghijklmnopqrstuvwxyz№",
+    "save_dir": "data/experiments/english3",
+    "num_epochs": 35,
+    "max_lr": 3e-4,
+    "lr": 3e-4,
+    "pretrain_path": "",
+    "image": {
+        "width": 512,
+        "height": 128
+    },
+    "train": {
+        "datasets": [
+            {
+                "csv_path": "train.csv",
+                "prob": 1
+            }
+
+        ],
+        "epoch_size": null,
+        "batch_size": 128
+    },
+    "val": {
+        "datasets": [
+            {
+                "csv_path": "val.csv",
+                "prob": 1
+            }
+
+        ],
+        "epoch_size": null,
+        "batch_size": 64
+    },
+    "test": {
+        "datasets": [
+            {
+                "csv_path": null,
+                "prob": 1
+            }
+
+        ],
+        "epoch_size": null,
+        "batch_size": 128
+    }
+}
