@@ -12,5 +12,6 @@ and `CRNN` to recognize the words.
 
 ## Results
 
-<img src=".images/image_2022-02-21_18-17-36.png" width="45%">
-<img src=".images/image_2022-02-22_15-03-40.png" width="45%">
+| example 1| example 2 |
+| :------: | :-------: |
+| ![](.images/image_2022-02-21_18-17-36.png) | ![](.images/image_2022-02-22_15-03-40.png) |
